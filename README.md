@@ -43,6 +43,29 @@ socketio-chat/
 3. Follow the setup instructions in the `Week5-Assignment.md` file
 4. Complete the tasks outlined in the assignment
 
+## Run locally
+
+1. Start the server
+
+```bash
+cd server
+npm install
+npm run dev # or node server.js
+```
+
+2. Start the client (in a separate terminal)
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Open the client app in your browser (Vite will print the URL, typically http://localhost:5173).
+
+Notes:
+- The client expects the Socket.io server at http://localhost:5000 by default. You can change this using the environment variable `VITE_SOCKET_URL`.
+
 ## Files Included
 
 - `Week5-Assignment.md`: Detailed assignment instructions
